@@ -1,5 +1,5 @@
 package bloque1;
-import Implementacion.Estrategia1;
+import bloque1.Implementacion.Estrategia1;
 import interfaces.TDAs;
 
 public class BalanceoDePrentesis {

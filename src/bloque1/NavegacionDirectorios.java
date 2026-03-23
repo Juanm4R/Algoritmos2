@@ -1,9 +1,13 @@
 package bloque1;
-import Implementacion.Estrategia1;
+import bloque1.Implementacion.Estrategia1;
 import interfaces.TDAs;
 
 public class NavegacionDirectorios {
     private TDAs ruta = new Estrategia1();
+
+    public NavegacionDirectorios() {
+        ruta.InicializarPila();
+    }
 
     public void entrar(int carpetaID) {
         ruta.Apilar(carpetaID);

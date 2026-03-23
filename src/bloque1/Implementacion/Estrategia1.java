@@ -1,4 +1,4 @@
-package Implementacion;
+package bloque1.Implementacion;
 import interfaces.TDAs;
 
 public class Estrategia1 implements TDAs {
