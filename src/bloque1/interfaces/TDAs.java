@@ -1,4 +1,4 @@
-package interfaces;
+package bloque1.interfaces;
 
 public interface TDAs {
     void InicializarPila();

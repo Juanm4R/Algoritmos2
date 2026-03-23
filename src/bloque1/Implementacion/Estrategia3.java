@@ -1,5 +1,5 @@
 package bloque1.Implementacion;
-import interfaces.TDAs;
+import bloque1.interfaces.TDAs;
 
 public class Estrategia3 implements TDAs {
     private int[] arreglo;

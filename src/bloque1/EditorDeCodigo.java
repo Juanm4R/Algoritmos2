@@ -1,6 +1,6 @@
 package bloque1;
 import bloque1.Implementacion.Estrategia1;
-import interfaces.TDAs;
+import bloque1.interfaces.TDAs;
 
 public class EditorDeCodigo {
 
