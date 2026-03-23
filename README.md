@@ -4,4 +4,4 @@
 
 **Integrantes:** Juan Manuel Rivero - Bautista Poletti - Mateo Costa - Juan Agustin Bonicalzi - Juan Cañavate - Lucas Quiñones
 
-**Fechas Modificaciones:** 16/03/2026 -
+**Fechas Modificaciones:** 23/03/2026 -

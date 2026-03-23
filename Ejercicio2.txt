@@ -1,0 +1,1 @@
+Consideramos que la estrategia 3 sera la mas rapida y la mejor para usar, porque ahorra la variable de control y no hace operaciones dentro del arreglo

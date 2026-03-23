@@ -1,0 +1,30 @@
+Los autos llegan, se ponen al final de la fila y se atienden en el orden en que llegaron (FIFO: First In, First Out).
+1. InicializarCola
+Este método crea la cola vacía, es decir, prepara la fila del lava autos antes de que llegue cualquier auto.
+Ejemplo:
+El lava autos abre por la mañana y todavía no hay autos esperando.
+La cola queda vacía, lista para recibir autos.
+2. Acolar
+Este método agrega un nuevo auto al final de la fila.
+Ejemplo:
+Llega un auto al lava autos y se pone al final de la cola detrás de los otros autos.
+Si ya había 3 autos esperando, este pasa a ser el cuarto en la fila.
+3. Desacolar
+Este método saca el auto que está primero en la fila, porque es el que va a ser atendido.
+Ejemplo:
+El lava autos termina de lavar el auto que estaba primero y ese auto se va de la fila.
+El segundo auto ahora pasa a ser el primero.
+4. Primero
+Este método muestra cuál es el auto que está primero en la fila, pero sin sacarlo.
+Ejemplo:
+El empleado del lava autos mira la fila para ver qué auto sigue, pero todavía no lo atiende.
+Solo observa el primero, la cola no cambia.
+5. ColaVacia
+Este método verifica si la cola está vacía.
+Ejemplo:
+El empleado mira la fila para ver si hay autos esperando.
+Si no hay autos → devuelve verdadero.
+
+
+Si hay al menos uno → devuelve falso.
+
