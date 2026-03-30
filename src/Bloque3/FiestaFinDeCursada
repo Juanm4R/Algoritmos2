@@ -1,0 +1,12 @@
+public static void main(String[] args){
+        String[] mail = {"compra", "rifas", "y", "gana", "un", "auto"};        ConjuntoTDA blacklist = new ConjuntoA();
+        blacklist.InicializarConjunto();
+        blacklist.Agregar("gana");
+        blacklist.Agregar("crypto");
+        blacklist.Agregar("premio");
+        for (int i = 0; i < mail.length; i++){
+            if(blacklist.Pertenece(mail[i])){
+                System.out.println("El mail contiene una palabra prohibida: " + mail[i]);
+            }
+        }
+    }
