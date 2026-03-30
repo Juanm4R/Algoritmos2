@@ -22,10 +22,10 @@ public class Esports  implements DiccionarioSimple{
             i++;
         }
         if (i < cantidad) {
-            // Si existe, actualizamos el valor (el puntaje en tu caso)
+            // Si existe, actualizamos el valor (el puntaje)
             valores[i] = valor;
         } else {
-            // Si no existe, la agregamos al final
+            // Si no existe, se agrega al final
             claves[cantidad] = clave;
             valores[cantidad] = valor;
             cantidad++;
@@ -36,7 +36,7 @@ public class Esports  implements DiccionarioSimple{
     public void Eliminar(int clave) {
         for (int i = 0; i < cantidad; i++) {
             if (claves[i] == clave) {
-                // Truco: movemos el último al lugar del eliminado para no dejar huecos
+                // Movemos el último al lugar del eliminado para no dejar huecos
                 claves[i] = claves[cantidad - 1];
                 valores[i] = valores[cantidad - 1];
                 cantidad--;
