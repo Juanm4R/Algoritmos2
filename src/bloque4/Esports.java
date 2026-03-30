@@ -17,7 +17,7 @@ public class Esports  implements DiccionarioSimple{
     @Override
     public void Agregar(int clave, int valor) {
         int i = 0;
-        // Buscamos si la clave ya existe
+        // Se busca si la clave ya existe
         while (i < cantidad && claves[i] != clave) {
             i++;
         }
