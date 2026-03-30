@@ -1,9 +1,9 @@
 package bloque1;
 import bloque1.Implementacion.Estrategia1;
-import bloque1.interfaces.TDAs;
+import bloque1.interfaces.Pila;
 
 public class HistorialDeNavegacion {
-    private TDAs historial = new Estrategia1();
+    private Pila historial = new Estrategia1();
     public HistorialDeNavegacion() {
         historial.InicializarPila();
 

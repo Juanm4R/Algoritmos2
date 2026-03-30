@@ -1,9 +1,9 @@
 package bloque1;
 import bloque1.Implementacion.Estrategia1;
-import bloque1.interfaces.TDAs;
+import bloque1.interfaces.Pila;
 
 public class NavegacionDirectorios {
-    private TDAs ruta = new Estrategia1();
+    private Pila ruta = new Estrategia1();
 
     public NavegacionDirectorios() {
         ruta.InicializarPila();

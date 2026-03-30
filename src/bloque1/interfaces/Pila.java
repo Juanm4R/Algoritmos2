@@ -1,6 +1,6 @@
 package bloque1.interfaces;
 
-public interface TDAs {
+public interface Pila {
     void InicializarPila();
     void Apilar(int x);
     void Desapilar();
