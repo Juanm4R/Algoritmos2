@@ -9,7 +9,6 @@ public class GestionLegajos {
         legajos = new Estrategia_Conjuntos();
         legajos.InicializarConjunto();
     }
-
     public void simular() {
         System.out.println("--- 5. GESTIÓN DE LEGAJOS ---");
 
