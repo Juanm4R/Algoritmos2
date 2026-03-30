@@ -1,10 +1,10 @@
 package bloque1;
 import bloque1.Implementacion.Estrategia1;
-import bloque1.interfaces.TDAs;
+import bloque1.interfaces.Pila;
 
 public class CallStack {
     public static void simular() {
-        TDAs stack = new Estrategia1();
+        Pila stack = new Estrategia1();
         stack.InicializarPila();
 
         stack.Apilar(10);

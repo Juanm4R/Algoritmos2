@@ -1,7 +1,7 @@
 package bloque1.Implementacion;
-import bloque1.interfaces.TDAs;
+import bloque1.interfaces.Pila;
 
-public class Estrategia2 implements TDAs {
+public class Estrategia2 implements Pila {
     private int[] arreglo;
     private int indice;
 

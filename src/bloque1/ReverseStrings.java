@@ -1,10 +1,10 @@
 package bloque1;
 import bloque1.Implementacion.Estrategia1;
-import bloque1.interfaces.TDAs;
+import bloque1.interfaces.Pila;
 
 public class ReverseStrings {
     public static void ejecutar(String palabra) {
-        TDAs pila = new Estrategia1();
+        Pila pila = new Estrategia1();
         pila.InicializarPila();
 
 
