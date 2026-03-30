@@ -1,0 +1,2 @@
+//Consigna: ¿Por qué usamos un Conjunto y no una Pila para los tags?
+//porque si usamos una Pila, cada vez que querramos acceder a uno de los tags que no esta en el tope, tenemos que vaciar la pila. En cambio con el conjunto podemos acceder en cualquier momento
