@@ -1,0 +1,13 @@
+public class main{
+   //¿Cómo evitás que un "vivo" vote dos veces usando Pertenece?
+    public static void main(String[] args){
+        ConjuntoTDA c = new ConjuntoA();
+        c.InicializarConjunto();
+        int persona = 003;
+        if(c.Pertenece(persona)){
+            System.out.println("La persona ya ha votado");
+        } else {
+            c.Agregar(persona);
+            System.out.println("La persona ha votado");
+        }
+    }
