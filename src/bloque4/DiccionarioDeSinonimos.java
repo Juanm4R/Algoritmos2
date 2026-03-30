@@ -61,24 +61,36 @@ public class DiccionarioDeSinonimos implements DiccionarioMultiple {
 
     @Override
     public int[] Recuperar(int clave) {
-        return new int[0];
+        int pos = buscarClave(clave);
+        if (pos != -1) {
+            // Creamos un arreglo del tamaño justo de sinónimos que tiene esa clave
+            int[] aux = new int[cantValores[pos]];
+            for (int i = 0; i < cantValores[pos]; i++) {
+                aux[i] = valores[pos][i];
+            }
+            return aux;
+        }
+        return new int[0]; // Si no existe la clave, devolvemos arreglo vacío
     }
 
     @Override
     public int[] Claves() {
-        return new int[0];
+        int[] aux = new int[cantClaves];
+        for (int i = 0; i < cantClaves; i++) {
+            aux[i] = claves[i];
+        }
+        return aux;
     }
 
-    private int  buscarClave(int clave) {
+    private int buscarClave(int clave) {
         int i = 0;
-
-        while (i < cantClaves && claves[i] != clave){
+        while (i < cantClaves && claves[i] != clave) {
             i++;
         }
 
-        if  (i == cantClaves){
-            return i;
+        if (i == cantClaves) {
+            return -1;
         }
-        return -1;
+        return i;
     }
 }
