@@ -3,7 +3,7 @@ package desafios;
 import ImplementacionesEstaticas.Bloque3.Implementacion.Estrategia_Conjuntos;
 import ImplementacionesEstaticas.Bloque3.Interface.ConjuntosTDA;
 
-public class desafio4 {
+public class Desafio4 {
     public ConjuntosTDA diferenciaSimetrica(ConjuntosTDA a, ConjuntosTDA b) {
         ConjuntosTDA resultado = new Estrategia_Conjuntos();
         resultado.InicializarConjunto();
