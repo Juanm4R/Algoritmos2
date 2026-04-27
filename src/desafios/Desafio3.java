@@ -5,7 +5,7 @@ import ImplementacionesDinamicas.bloque1.Interface.PilaTDA;
 import ImplementacionesEstaticas.Bloque3.Implementacion.Estrategia_Conjuntos;
 import ImplementacionesEstaticas.Bloque3.Interface.ConjuntosTDA;
 
-public class desafio3 {
+public class Desafio3 {
 
     public static boolean esUnica(PilaTDA p) {
         PilaTDA aux = new PilaDinamica();
