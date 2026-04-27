@@ -1,0 +1,13 @@
+Analizamos 3 formas de armar una Pila con arreglos:
+
+Estrategia 1: Arreglo + contador apuntando a la celda libre.
+Estrategia 2: Arreglo + el Tope siempre está obligado a estar en el índice 0.
+Estrategia 3: Arreglo donde la posición 0 guarda la cantidad.
+
+La pregunta: ¿Cuál es la más ineficiente para Apilar y por qué?
+Respuesta:
+La más ineficiente es la Estrategia 2. Al forzar que el último elemento que entra (el Tope)
+se guarde siempre en la posición [0] del arreglo, cada vez que hacés un Apilar() el sistema
+tiene que hacer un bucle para desplazar absolutamente todos los elementos que ya estaban
+guardados una posición hacia la derecha para hacerle hueco. En cambio, la Estrategia 1 va
+directo al final del arreglo usando el contador, sin mover nada.

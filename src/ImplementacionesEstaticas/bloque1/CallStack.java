@@ -1,0 +1,18 @@
+package ImplementacionesEstaticas.bloque1;
+import ImplementacionesEstaticas.bloque1.Implementacion.Estrategia1;
+import ImplementacionesEstaticas.bloque1.interfaces.Pila;
+
+public class CallStack {
+    public static void simular() {
+        Pila stack = new Estrategia1();
+        stack.InicializarPila();
+
+        stack.Apilar(10);
+        stack.Apilar(20);
+        stack.Apilar(30);
+
+        System.out.println("Función en ejecución: " + stack.Tope());
+        stack.Desapilar();
+        System.out.println("Volviendo a función: " + stack.Tope());
+    }
+}
