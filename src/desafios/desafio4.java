@@ -1,7 +1,7 @@
 package desafios;
 
-import Bloque3.Implementacion.Estrategia_Conjuntos;
-import Bloque3.Interface.ConjuntosTDA;
+import ImplementacionesEstaticas.Bloque3.Implementacion.Estrategia_Conjuntos;
+import ImplementacionesEstaticas.Bloque3.Interface.ConjuntosTDA;
 
 public class desafio4 {
     public ConjuntosTDA diferenciaSimetrica(ConjuntosTDA a, ConjuntosTDA b) {
