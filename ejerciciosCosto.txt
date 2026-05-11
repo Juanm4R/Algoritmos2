@@ -1,0 +1,6 @@
+ejercicio 1: O(n)
+
+ejercicio 2: O(n²)
+
+ejercicio 3: O(n)
+             O(1)
